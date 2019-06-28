@@ -1,0 +1,14 @@
+<fieldset class="assignee-edit-group" rel="assignee">
+    <fieldset rel="assignee_to_user_field" class="hidden user-picker-params">
+        <input title="fieldName" type="hidden" value="assignee_to_user_field" />
+        <input title="multiSelect" type="hidden" value="false" />
+        <input title="userPickerEnabled" type="hidden" value="true" />    </fieldset>
+        <div class="ajax_autocomplete" id="assignee_to_user_field_container">
+            <input class="text long-field userpickerfield" id="assignee_to_user_field" name="assignee_to_user_field" style=" width: 20%;" type="text" value="" />
+            <a href="#" class="popup-trigger">
+        <span class="icon-default aui-icon aui-icon-small aui-iconfont-admin-roles" title="Select a user"></span></a>
+        <div class="ajax_results" id="assignee_to_user_field_results"></div>
+        <div class="description">Start typing to get a list matches.</div>
+        </div>
+    </div>
+</fieldset>
