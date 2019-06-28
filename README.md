@@ -4,30 +4,30 @@ The plugin allows you to assign default assignee when issue will be create and i
 ## Compile
 1. Download and install Java JDK 1.8 from Oracle site: https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 2. Download and install Atlassian SDK from Atlassian site: https://developer.atlassian.com/server/framework/atlassian-sdk/downloads/
-3. Clone git rep to local computer: *git clone https://github.com/bearchik/assignToUser.git*
-4. Run *atlas-run* in folder with repo.
+3. Clone git rep to local computer: **git clone https://github.com/bearchik/assignToUser.git**
+4. Run **atlas-run** in folder with repo.
 Your plugin in **../target/jira/home/plugins/installed-plugins/assignToUser-1.0.0-SNAPSHOT.jar**
 
 ## Install
-1. Login to Atlassian Jira with *Administrator* permission.
-2. Click to *Manage apps* in administration section.
-3. Click to *Manage apps* on left panel.
-4. Click to *Upload app" on top.
+1. Login to Atlassian Jira with **Administrator** permission.
+2. Click to **Manage apps** in administration section.
+3. Click to **Manage apps** on left panel.
+4. Click to **Upload app** on top.
 5. Choose file **../target/jira/home/plugins/installed-plugins/assignToUser-1.0.0-SNAPSHOT.jar**
-6. Click to *Upload* button.
+6. Click to **Upload** button.
 
 ## Usage
 1. Open Your workflow
-2. Click *Edit*
-3. Click on *transition* where you can change Assignee.
-4. Click on *Post function*
-5. Click on *Add postfunction*
-6. Choose *Assign to User* and click *Add*
-7. Choose *User* what will be default asignee and click *Add*
+2. Click **Edit**
+3. Click on **transition** where you can change Assignee.
+4. Click on **Post function**
+5. Click on **Add postfunction**
+6. Choose **Assign to User** and click **Add**
+7. Choose **User** what will be default asignee and click **Add**
 8. Enjoy
 
 ## Credentials
-Author: bearchik@gmail.com
+Author: **bearchik@gmail.com**
 
 ## License
 
